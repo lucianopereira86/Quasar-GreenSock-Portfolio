@@ -32,7 +32,11 @@ The Dashboard screen contains a gallery with all the portfolios listed horizonta
 
 ![quasar02](/docs/quasar02.JPG)
 
+Creating a portfolio.
+
 ![quasar03](/docs/quasar03.JPG)
+
+Portfolio listed in the gallery.
 
 ![quasar04](/docs/quasar04.JPG)
 
