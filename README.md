@@ -74,31 +74,17 @@ The structure of each portfolio block is described at the "/src/pages/Index.vue"
 
 To modify it, it's only necessary to change the "col" and "height" props of each MyPortfolio component identified by the "index" props. For example, considering that the "imgHeight" variable has the value 50, to make 3 blocks with the same height in the first row, the structure would be like this:
 
-- index: 0, col: 4, height:imgHeight
-- index: 1, col: 4, height:imgHeight
-- index: 2, col: 4, height:imgHeight
-
 ![code04_1](/docs/code04_1.JPG)
 
 ![code04_2](/docs/code04_2.JPG)
 
 Now, if the middle block should be twice as the size of the other blocks and the imgHeight should be the value 30, the structure would be like this:
 
-- index: 0, col: 3, height:imgHeight
-- index: 1, col: 6, height:(imgHeight \* 2)
-- index: 2, col: 3, height:imgHeight
-
 ![code05_1](/docs/code05_1.JPG)
 
 ![code05_2](/docs/code05_2.JPG)
 
 It's possible to insert a "MyPortfolio" component in another one. It should have "col" equals to 12 to fill the space horizontally below the outer component and use "subPortfolio" class to fix some margin issues. For example:
-
-- index: 0, col: 3, height:imgHeight
-  - index: 1, col: 12, height:imgHeight
-- index: 2, col: 6, height:(imgHeight \* 2)
-- index: 3, col: 3, height:imgHeight
-  - index: 4, col: 12, height:imgHeight
 
 ![code06_1](/docs/code06_1.JPG)
 
