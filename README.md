@@ -1,6 +1,6 @@
 ![titulo](/docs/titulo.JPG)
 
-# Quasar Greensock Portfolio
+# Quasar GreenSock Portfolio
 
 Building a dynamic portfolio with Quasar and Green Sock.
 

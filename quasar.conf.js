@@ -97,9 +97,9 @@ module.exports = function(ctx) {
       // workboxPluginMode: 'InjectManifest',
       // workboxOptions: {}, // only for NON InjectManifest
       manifest: {
-        // name: 'Quasar Greensock Portfolio',
-        // short_name: 'Quasar Greensock Portfolio',
-        // description: 'Quasar Greensock Portfolio test app',
+        // name: 'Quasar GreenSock Portfolio',
+        // short_name: 'Quasar GreenSock Portfolio',
+        // description: 'Quasar GreenSock Portfolio test app',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
