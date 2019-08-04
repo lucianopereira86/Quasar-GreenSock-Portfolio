@@ -65,6 +65,7 @@ Inside the "/src/components/MyPortfolio.vue" file, jQuery is used to listen to e
 ![code02](/docs/code02_1.JPG)
 
 The Green Sock plugin is responsible for the animation
+
 ![code02](/docs/code02_2.JPG)
 
 The structure of each portfolio block is described at the "/src/pages/Index.vue".
