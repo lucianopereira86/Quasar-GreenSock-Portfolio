@@ -60,9 +60,12 @@ The "/src/boot/gsap.js" file injects the Green Sock plugin into the Vue prototyp
 
 ![code01](/docs/code01.JPG)
 
-Inside the "/src/components/MyPortfolio.vue" file, jQuery is used to listen to each portfolio's hover event and the Green Sock plugin is responsible for the animation.
+Inside the "/src/components/MyPortfolio.vue" file, jQuery is used to listen to each portfolio's hover event.
 
-![code02](/docs/code02.JPG)
+![code02](/docs/code02_1.JPG)
+
+The Green Sock plugin is responsible for the animation
+![code02](/docs/code02_2.JPG)
 
 The structure of each portfolio block is described at the "/src/pages/Index.vue".
 
