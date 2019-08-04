@@ -56,7 +56,7 @@ Everything is saved in the Vuex store, so it will be lost once you reload the pa
 
 ## How it works
 
-The "/src/boot/gsap.js" file inject the Green Sock plugin into the Vue prototype.
+The "/src/boot/gsap.js" file injects the Green Sock plugin into the Vue prototype.
 
 ![code01](/docs/code01.JPG)
 
