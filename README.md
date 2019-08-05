@@ -80,18 +80,18 @@ The result would be this:
 
 ![code04_2](/docs/code04_2.JPG)
 
-Now, if the middle block should be twice as the size of the other blocks, reducing the "imgHeight" to 30, the structure would be like this:
+Now, if the middle block should be twice as the size of the other blocks, the structure would be like this:
 
 ![code05_1](/docs/code05_1.JPG)
 
-The result would be this:
+If the "imgHeight" had the value 30, The result would be like this:
 
 ![code05_2](/docs/code05_2.JPG)
 
-It's possible to insert a "MyPortfolio" component in another one. It should have "col" equals to 12 to fill the space horizontally below the outer component and use "subPortfolio" class to fix some margin issues. For example:
+It's possible to insert a "MyPortfolio" component inside another one. The inner component should have the "col" props equals to 12 and use the "subPortfolio" class to fix some margin issues. For example:
 
 ![code06_1](/docs/code06_1.JPG)
 
-The result would be this:
+And the result:
 
 ![code06_2](/docs/code06_2.JPG)
