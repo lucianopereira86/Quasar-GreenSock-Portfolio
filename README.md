@@ -80,7 +80,7 @@ The result would be this:
 
 ![code04_2](/docs/code04_2.JPG)
 
-Now, if the middle block should be twice as the size of the other blocks, the structure would be like this:
+Now, if the middle block should be twice the size of the other blocks, the structure would be like this:
 
 ![code05_1](/docs/code05_1.JPG)
 
