@@ -76,16 +76,22 @@ To modify it, it's only necessary to change the "col" and "height" props of each
 
 ![code04_1](/docs/code04_1.JPG)
 
+The result would be this:
+
 ![code04_2](/docs/code04_2.JPG)
 
 Now, if the middle block should be twice as the size of the other blocks and the imgHeight should be the value 30, the structure would be like this:
 
 ![code05_1](/docs/code05_1.JPG)
 
+The result would be this:
+
 ![code05_2](/docs/code05_2.JPG)
 
 It's possible to insert a "MyPortfolio" component in another one. It should have "col" equals to 12 to fill the space horizontally below the outer component and use "subPortfolio" class to fix some margin issues. For example:
 
 ![code06_1](/docs/code06_1.JPG)
+
+The result would be this:
 
 ![code06_2](/docs/code06_2.JPG)
