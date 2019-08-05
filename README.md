@@ -2,7 +2,7 @@
 
 # Quasar GreenSock Portfolio
 
-Building a dynamic portfolio with Quasar and Green Sock.
+Building a dynamic portfolio with Quasar and GreenSock.
 
 ## Objective
 
@@ -23,7 +23,7 @@ Run the app
 quasar dev
 ```
 
-The main screen shows many portfolio blocks with different sizes. The black borders are merely for visualization. Each portfolio should have an image, the company's name and the service provided by it. Gifs are accepted as images.
+The main screen shows the portfolio grid. The black borders are merely for visualization of each portfolio block which must have an image, the company's name and the service provided by it. Gifs are accepted as images as well.
 
 ![quasar01](/docs/quasar01.JPG)
 
@@ -56,7 +56,7 @@ Everything is saved in the Vuex store, so it will be lost once you reload the pa
 
 ## How it works
 
-The "/src/boot/gsap.js" file injects the Green Sock plugin into the Vue prototype.
+The "/src/boot/gsap.js" file injects the GreenSock plugin into the Vue prototype.
 
 ![code01](/docs/code01.JPG)
 
@@ -64,7 +64,7 @@ Inside the "/src/components/MyPortfolio.vue" file, jQuery is used to listen to e
 
 ![code02](/docs/code02_1.JPG)
 
-The Green Sock plugin is responsible for the animation
+The GreenSock plugin is responsible for the animation
 
 ![code02](/docs/code02_2.JPG)
 
@@ -95,3 +95,8 @@ It's possible to insert a "MyPortfolio" component inside another one. The inner 
 And the result:
 
 ![code06_2](/docs/code06_2.JPG)
+
+## Conclusion
+
+The GreenSock plugin has LOTS of features but it was used only a few in this projects.
+The coolest thing we have done was to easily change the portfolio grid structure.
