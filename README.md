@@ -98,5 +98,6 @@ And the result:
 
 ## Conclusion
 
-The GreenSock plugin has LOTS of features but it was used only a few in this projects.
+The GreenSock plugin has LOTS of features but it was used only a few in this project.
+
 The coolest thing we have done was to easily change the portfolio grid structure.
